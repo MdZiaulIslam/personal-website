@@ -8,7 +8,6 @@ section{
 .top-section{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-    border: 1px solid red; 
 }
 .half-width{
     width: 40%;
@@ -30,18 +29,23 @@ section{
     
 }
 .name-hightlight{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     color: rgb(224, 7, 108);
 }
 .border-top{
     border-top: 2px solid  rgba(224, 7, 108, 0.288);
 }
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
 p{
     text-align: justify;
     padding-bottom: 20px;
     padding-top: 10px;
     color: dimgray;
+    line-height:150% ;
 }
 .link-button{
     text-decoration: none;
@@ -60,21 +64,47 @@ a:visited{
 .biograghy-section{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    border: 1px solid red;
+}
+.works-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    padding: 5% 5%;
+    height: 600px;
 }
 .quarter-width{
-    width: 25%;
+    width: 30%;
+    height: 400px;
+    padding: 5% 15px;
     float: left;
-    margin:2.5%;
+}
+.quarter-width img{
+    width: 100%;
+}
+.works-title{
+    text-align: center;
+    border-bottom: 2px solid linear-gradient(blue,cyan);
+    padding: 10px;
+}
+.client-title{
+    text-align: center;
+    padding: 10px;
+}
+.client-text{
+    text-align: center;
+    padding-bottom: 1px;
+    line-height: 1.5;
+}
+.contact-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 500px;
 }
 footer{
-    height: 150px;
-    background-color: rgb(243, 242, 242);
-    line-height: 150px;
-
+    height: 50px;
 }
 footer p{
     text-align: center;
     color: rgb(65, 65, 65);
-    
+    line-height:50px;
 }
